@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mengelectric",
+  "version": "${version}",
+  "name": "Menga Electric",
+  "description": "Electric mod for Minecraft. Reston battery with 150 charge, Black Reston when empty, and a Reston Block that stores 15k electric and charges Restons.",
+  "authors": [
+    "EnderDevelopment"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mengelectric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.mengelectric.Mengelectric"
+    ],
+    "client": [
+      "com.enderdevelopment.mengelectric.MengelectricClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

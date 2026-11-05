@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mengelectric:block/reston_block"
+    }
+  }
+}
